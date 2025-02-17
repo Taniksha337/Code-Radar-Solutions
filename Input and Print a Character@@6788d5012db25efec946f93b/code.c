@@ -3,8 +3,8 @@
 int main() {
     char ch;
     
-    // Reading input and ensuring no extra newline is captured
-    scanf("%c", &ch);  // Takes the first non-whitespace character
+    // Taking input for a single character (skip any newline character)
+    scanf("%c", &ch);
     
     // Printing the character
     printf("%c\n", ch);
