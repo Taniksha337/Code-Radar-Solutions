@@ -1,4 +1,4 @@
-# include <stdioh>
+# include <stdio.h>
 int main()
 {
     printf("enter the number: ");
