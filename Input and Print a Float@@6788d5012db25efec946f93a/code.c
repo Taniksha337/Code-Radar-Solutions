@@ -1,8 +1,8 @@
 # include <stdio.h>
 int main()
 {
-    printf("enter the number : ");
+    float a;
     scanf("%d",&a);
-    return0;
-
+    printf("%.2d\n",&a);
+    return 0;
 }
